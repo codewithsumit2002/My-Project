@@ -1,0 +1,71 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>creating  a module</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+	{{firstName + " " + lastName}}
+</div>
+<script type="text/javascript">
+	 var app=angular.module("myApp",[]);
+	 app.controller("myCtrl",function($scope){
+	 	$scope.firstName="Shikha";
+	 	$scope.lastName="Gupta";
+	 });
+</script>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ajs</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="" ng-init="firstName='Rohan'">
+	<p>Input Something in the input box</p>
+	<p>Name:<input type="text" ng-model="firstName"> </p>
+	<p>You wrote:{{firstName}}</p>
+
+</div>
+</body>
+</html>
+The {{firstName}} expression , in the example above, is an AngularJS data binding expression.
+
+
+Data binding in AngularJS binds AJS expressions with AJS data.
+{{firstName}} is bound with ng-model="fistName".
+-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cost calculator</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<div data-ng-app="" data-ng-init="quantity=1;price=5">
+	<h2>Cost Calculator</h2>
+	Quantity: <input type="number" ng-model="quantity">
+	Price:<input type="number" ng-model="price">
+	<p><b>Total in Dollar:</b> {{quantity * price}} </p>
+	<p>AngularJS is perfect for the database CRUD (Create Read update Delete) application. Just imagine if these objects were records from a database.</p>
+</div>
+
+
+
+
+</body>
+</html>

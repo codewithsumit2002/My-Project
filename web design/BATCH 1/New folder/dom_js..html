@@ -1,0 +1,433 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h2>Prompt dialoge box</h2>
+<button onclick="myP()">Try it</button>
+<p id="demo"></p>
+<div onclick="this.innerHTML='wow'">hit me</div>
+<script type="text/javascript">
+	function myP() {
+		
+		// body...
+		var eName;
+		var person=prompt("Your sweetest name plz?","Sumit");
+		if (person) {
+		if (person==null || person=="") {
+			eName="User CAncelled the prompt.";
+		}
+		else{
+			eName="HEllo "+person+" How may i help you?";
+
+		}
+			document.getElementById('demo').innerHTML=eName;
+	}
+	else{
+		alert("plz fill the value");
+	}
+}
+</script>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		h1 em{
+			color: blue;
+		}
+		ul.menu{padding: 5;list-style: none;margin: 5px}
+		ul.menu li{display:inline;  }
+		ul.menu li a{ margin:8px;text-decoration:none  }
+	</style>
+</head>
+<body>
+	<h1>This is <em>Heading</em></h1>
+	<ul class="menu">
+		<li><a href="#">Home<a/></li>
+		<li><a href="#">About<a/></li>
+		<li><a href="#">Sell<a/></li>
+		<li><a href="#">Contact<a/></li>
+	</ul>
+
+	<h1>This is <em>Heading</em></h1>
+	<ol class="menu">
+		<li><a href="#">Home<a/></li>
+		<li><a href="#">About<a/></li>
+		<li><a href="#">Sell<a/></li>
+		<li><a href="#">Contact<a/></li>
+	</ol>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+	ol > li{
+		color: blue;
+		padding: 0px;
+	}
+</style>
+</head>
+<body>
+<ol>
+	<li>Tbalaji Publication</li>
+	<ul>
+		<li>C Languauge</li>
+		<ol>
+			<li>gf</li>
+			<li>fdhg</li>
+		</ol>
+		<li>IT Tools</li>
+		<li>Python</li>
+	</ul>
+		<li>tbalaji</li>
+		<li>w3c</li>
+		<li>www</li>
+</ol>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		h2 ~ p{
+			color: red;
+			text-align: center;
+		}
+		ul.tbp ~ p{
+			color: green;
+			text-indent: 180px;
+		}
+	</style>
+</head>
+<body>
+<h2>welcome</h2>
+<p>some</p>
+<p>ghfhf</p>
+<ul class="tbp">
+	<li>python</li>
+	<li>it tools</li>
+	<li>c</li>
+</ul>
+<p>That's set</p>
+<p>goto</p>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		div ~ p{
+			background-color: red;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h2>Welcome</h2>
+	<div>
+		<p>we are</p>
+		<code>write</code>
+		<p> some of you</p>
+	</div>
+	<p>Start</p>
+	<code>gjh</code>
+	<p>write</p>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.image{
+			background-image: url("2.jpg");
+			background-color: #cccccc;
+			height: 500px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover ;
+			position: relative;
+		}
+		.text{
+			text-align: right;
+			position: absolute;
+			top: 30%;
+			left: 64%;
+			transform: translate(-50%,-50%);
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<div class="image">
+	<div class="text">
+		<h1 style="font-size: 50px;">I am Shreya</h1>
+		<h3>And I'm Your Friend...</h3>
+		<button>Enter</button>
+	</div>
+</div>
+<p>Welcome..</p>
+<p>Note that this tecnique will also make the image responsive:Resize the browser window to see the effect</p>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body{
+			padding: 50px;
+			background-image: url("2.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+
+		}
+		/*
+		#bg2{
+			height: 100px;
+			background-color: #cccccc;
+			background-image: repeating-linear-gradient(blue,green 10%,green 20%);
+			background-image: repeating-radial-gradient(blue,green 10%,green 20%);
+		}*/
+	</style>
+</head>
+<body>
+<h2>Linear Gradient as background Image</h2>
+<p>The repeating-linear-gradient() function is used to repair linear gradient:</p>
+<div id="bg2"></div>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<frameset border="30" rows="20%,80%" cols="20%,80%">
+	<frame src="1.jpg"></frame>
+	<frame src="2.jpg"></frame>
+	<frame src="3.jpg"></frame>
+	<frame src="2.jpg"></frame>
+</frameset>
+</html>
+
+-->
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Layout</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: gray;
+	}
+	#wrapper{
+		margin: 20px 10px 20px 50px;
+		background-color: cyan;
+	}
+	#header{
+		background-color: red;
+		color: white;
+		padding: 2px;
+	}
+
+	#menu{
+		background-color: purple;
+		padding: 1px;
+		list-style: none;
+	}
+	#menu li{display:inline;}
+	#menu li a{
+		margin:10px;
+		text-decoration:none;
+		color:white;
+	}
+	#content{
+		
+	}
+	#sidebar{
+		background-color: skyblue;
+		list-style: none;
+		text-decoration: none;
+	}
+	#sidebar li{display: block;}
+	#sidebar li a{
+		color: white;
+		text-decoration: none;
+	}
+
+	#footer{
+		background-color: red;
+		text-align: right;
+		color: white;
+		padding:1px auto;
+		font-style: bold;
+	}
+</style>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<h1>CWS IT</h1>
+	</div>
+
+	<div id="menu">
+		<ul>
+			<li><a href="">Home</a> </li>
+			<li><a href="">About Us</a> </li>
+			<li><a href="">Gallery</a> </li>
+			<li><a href="">Contact Us</a> </li>
+		</ul>
+	</div>
+
+	<div id="content">
+		<h2 id="sub-heading">Sub Heading</h2>
+		<img src="2.jpg" width="200px" height="250px" class="image" id="">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<ul id="list">
+			<li>Lorem ipsum dolor sit amet</li>
+			<li>Lorem ipsum dolor sit amet</li>
+			<li>Lorem ipsum dolor sit amet</li>
+			<li>Lorem ipsum dolor sit amet</li>
+			<li>Lorem ipsum dolor sit amet</li>
+		</ul>
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			<li><a href="">Home</a> </li>
+			<li><a href="">About Us</a> </li>
+			<li><a href="">Gallery</a> </li>
+			<li><a href="">Contact Us</a> </li>
+		</ul>
+	</div>
+
+	<div id="footer">
+		cwsit@copyright 2025.
+	</div>
+</div>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f05f5f;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+#menu{
+		background-color: purple;
+		padding: 1px;
+		list-style: none;
+	}
+	#menu li{display:inline;}
+	#menu li a{
+		margin:10px;
+		text-decoration:none;
+		color:white;
+	}
+
+.footer {
+  background-color: #f05f5f;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Yahoo Baba</h1>
+</div>
+
+ <div id="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h2>Sub Heading</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veniam eius architecto ullam cupiditate quam aspernatur quis facilis tempora vel! Aspernatur, consequatur, laborum, explicabo consequuntur minima beatae perferendis impedit accusantium ex animi odit quisquam sint pariatur minus amet ullam reprehenderit rerum inventore sed officiis voluptas? Dolore, perferendis, minus eum debitis vero ipsam tempora voluptate nam ut autem itaque provident consequatur nobis quia libero! Magni, molestiae, laborum architecto natus inventore facere quis pariatur quia quos quasi quo dicta dolores. Deleniti, facere, fugit sed minus ducimus ut modi voluptatum eaque praesentium saepe aperiam nam quidem laboriosam assumenda voluptate vitae inventore et quibusdam . Quisquam, voluptatibus, doloremque, eveniet, cumque, distinctio, voluptates, alias, accusantium, rem, perferendis, officiis, dolorem, nihil, aspernatur, consequatur, quis, optio, sequi, ab, libero, tenetur, voluptatibus, dignissimos, sit, amet, consectetur, adipisicing, elit. 
+
+  </p>
+    <img src="2.jpg" alt="Sample Image" style="width:200px; height:auto;">
+  </div>
+</div>
+
+<div class="footer">
+  <p>&copy; 2023 Yahoo Baba. All rights reserved.</p>
+</div>
+
+</body>
+</html>

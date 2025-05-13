@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form validation</title>
+	<script type="text/javascript">
+		function validateForm(){
+			let x=document.forms["myForm"]["fname"].value;
+			if(x==""){
+				alert("Name Must be filled out.");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+<h1>Javascript form validation</h1>
+<p>If a form filed (fname) is empty , this fucntion alerts a message ,
+and returns a false , to prevent the form from being submitted.</p>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+	Name:<input type="text" name="fname">
+	<input type="submit" name="submit" value="Submit">
+	
+
+</form>
+
+</body>
+</html>

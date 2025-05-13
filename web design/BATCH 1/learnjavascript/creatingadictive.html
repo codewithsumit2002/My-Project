@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create a new directive</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+<h4>By Element name</h4>
+<w3-test-directive></w3-test-directive>
+
+<h1>By Attribute</h1>
+<div w3-test-directive>
+
+</div>
+<script type="text/javascript">
+	var app=angular.module("myApp",[]);
+	app.directive("w3TestDirective",function(){
+		return {
+			restrict : "E",
+			template : "<h1>Made By A Directive</h1>"
+		};
+	});
+</script>
+<p><b>Result:</b> no output will come for attribute in restrict: "A". </p>
+<p>Use restrict: "E" for element output.</p>
+</body>
+</html>

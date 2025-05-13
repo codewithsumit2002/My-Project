@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js</title>
+
+	<script>
+		
+
+
+
+	</script>
+
+	
+</head>
+<body>
+<h1 >Javascript</h1>
+
+<p>Display "Good Day"! if the hour is less than 15:00</p>
+<p id="demo"></p>
+<script type="text/javascript">
+	/*
+	var x=20;
+	document.getElementById('demo').innerHTML=x;
+*/
+	/*
+if (new Date().getHours() < 15) {
+	document.getElementById('demo').innerHTML="Good Day!";	
+}
+*/
+
+	const time=new Date().getHours();
+	if (time<10) {
+		document.getElementById('demo').innerHTML="Good Morning!";
+	}
+	else if(time<18){
+		document.getElementById('demo').innerHTML="Good Day!";
+	}
+	else if (time<20) {
+		document.getElementById('demo').innerHTML="Good Evening!";
+	}
+	else{
+		document.getElementById('demo').innerHTML="Good Night!";
+	}
+
+</script>
+</body>
+</html>

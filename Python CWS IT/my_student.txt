@@ -1,0 +1,7 @@
+Ankita gupta is a Good student.
+Amit is a Good student.
+Ankita is a Good student.
+Preeti is a Good student.
+Prachi is a Good student.
+Shreya is a Good student.
+Python is a high level programimng language.

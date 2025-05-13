@@ -1,0 +1,3 @@
+Python is easy to learn.
+Python is open sourced.
+Python is GUI Based.

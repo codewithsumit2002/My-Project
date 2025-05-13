@@ -1,0 +1,32 @@
+body{
+	font-family: arial;
+	background: slategray;
+	margin: 0;
+	padding: 0;
+	color: blue;
+	background-color: red;
+}
+#wrapper{
+	background-color: red;
+	border: 2px solid red;
+}
+#header{
+
+}
+#menu{
+	background-color: yellow;
+
+}
+#sidebar{
+
+}
+#content{
+	display: flex;
+}
+#footer{
+	background-color: crimson;
+}
+img{
+	border: 2px solid red;
+	position: absolute;
+}

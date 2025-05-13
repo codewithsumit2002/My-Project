@@ -1,0 +1,64 @@
+/*Body content*/
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+/*default value on fields*/
+ input[type="text"],input[type="date"]{
+    width: 98%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: large;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/*default value on button*/
+input[type="submit"], input[type="cancle"], input[type="reset"] {
+    background-color: #ccc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="cancle"]{
+    width: 50px;
+}
+/*hover on buttons*/
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    color: #fff;
+}
+input[type="cancle"]:hover {
+    background-color: red;
+    color: #fff;
+}
+input[type="reset"]:hover {
+    background-color: grey;
+    color: #fff;
+}
+.buttonsMain,.buttons{
+    padding:5px 10px;
+    display: flex;
+    justify-content: center;
+}

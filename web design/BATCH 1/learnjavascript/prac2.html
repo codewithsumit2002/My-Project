@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form validation</title>
+</head>
+<body>
+<p>Please input a number between 1 to 10.</p>
+<input id="numb">
+<button type="button"onclick="abc()">Click here</button>
+<p id="demo"></p>
+<script type="text/javascript">
+	function abc(){
+		let x=document.getElementById('numb').value;
+		let text;
+		if (isNaN(x) || x<1 || x>10) {
+			text= "input not valid";
+		}
+		else{
+			text="input Ok";
+		}
+		document.getElementById("demo").innerHTML=text;
+	}
+	(isNaN(x) || x<1 || x>10)? text="input not valid!" : "input Ok!"
+</script>
+</body>
+</html>

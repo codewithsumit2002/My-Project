@@ -1,0 +1,1 @@
+class AreaOfRectangle{public static void main(String [] arg){int height=6;int lenght=5;int Area=height*lenght;System.out.println("Result="+Area);}}

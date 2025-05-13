@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="" ng-init='Image="img/car2.jpg"' lang="en">
+<head >
+	<title>AJS example 2</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+		
+	</script>
+	<style type="text/css">
+		body{
+			background-image: url('{{Image}}');
+			
+
+		}
+		.main{
+			border: {{myBor}} ;
+			background-color: {{myCol}};
+			margin: {{myMar}};
+			padding: {{myPad}};
+			text-decoration: {{TextDeco}} ;
+			background-image:url('car6.jpg');
+			Color:{{TextCol}};
+			opacity: {{TextOpa}};
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+			<h1 class="main" contenteditable='true'>Your Output Will Be Visible Here!</h1>
+			<h1 class="main" contenteditable='true' >Your Output Will Be Visible Here!</h1>
+	<div>
+		Border:<input {{myBor}} ng-model="myBor" ng-model="myCol" placeholder="2px solid red"><br>
+		Color:&nbsp&nbsp<input {{myCol}} ng-model="myCol" placeholder="Red"><br>
+		Margin:<input {{myMar}} ng-model="myMar" placeholder="10px 20px 30px 10px"><br>
+		Padding:<input {{myPad}} ng-model="myPad" placeholder="10px 20px 30px 10px"><br>
+		Text Style:<input {{TextDeco}} ng-model="TextDeco"placeholder="Underline"><br>
+		Text Color:<input {{TextCol}} ng-model="TextCol" placeholder="Red"><br>
+		Text Opacity:<input {{TextOpa}} ng-model="TextOpa" placeholder="0 to 1"><br>
+		Image:<input {{Image}} ng-model="Image" placeholder="url...."><br>
+	</div>
+
+</div>
+</body>
+</html>

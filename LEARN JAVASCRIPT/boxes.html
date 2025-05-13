@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>some useful functions</title>
+<script type="text/javascript">
+	//alert();
+	//alert("Testing!");
+	//confirm box
+	//confirm("Do you like games?");
+
+	//prompt box
+	//prompt("Which lang do you like?");
+
+	//example:
+	/*
+	var a=prompt("What is your name?");
+	if(a){
+		alert("Hello!");
+	}
+	else{
+		alert("See you later.");
+	}
+	*/
+</script>
+</head>
+<body>
+<script type="text/javascript">/*
+	//Functions: (set of statements)
+ document.write("monday");
+ document.write("tuesday");
+document.write("wed");
+document.write("thurs");
+//syntax:
+function function_name(argument) {  <--function difination
+	// statment...
+}
+function_name() <-- calling a function
+*/
+	/*
+function abc(){
+	document.write("monday<br>");
+ 	document.write("tuesday<br>");
+	document.write("wed<br>");
+	document.write("thurs<br>");
+}
+
+abc()
+abc()
+abc()
+*/
+//function with parameter:
+	/*
+	function add(a,b){
+		var c=a+b;
+		document.write(c,"<br>");
+	}
+
+	add(12,8)
+
+	add(5,8)
+
+	add(50,5)
+*/
+/*
+	function hello(fname="Preeti",lname="Mishra"){
+		document.write("Hello "+fname+" "+lname);
+	}
+*/
+
+	//hello("Ashu","Muskan")
+	//hello()
+
+	//Function with return value:
+	//syntax
+	/*
+
+	function function_name(para1,para2) {
+		// Statement...
+		return value
+	}
+ 	var a=function_name(arg1,arg2)
+ */
+/*
+	function fullname(fname="Sumit",lname="Gupta"){
+		var a=fname+" "+lname;
+		return a;
+	}
+
+
+	var fn=fullname("Ram","Singh");
+	document.write(fn);
+*/
+
+	function sum(math,phy,chm) {
+		return  math+phy+chm;
+	}
+
+	function per(t){
+		var pr=t/300*100;
+		document.write("Percentage:",pr);
+	}
+	var total=sum(90,75,70);
+	per(total);
+</script>
+</body>
+</html>

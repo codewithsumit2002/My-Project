@@ -1,0 +1,119 @@
+/*Image slider section css*/
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+.slider-container {
+  width: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+/* Add styles for the slider */
+.slider {
+  display: flex;
+  transition: 0.5s;
+}
+/* Add styles for the slides */
+.slide {
+  flex: 1;
+  display: none;
+}
+/* Add styles for the active slide */
+.slide.active {
+  display: flex;
+}
+/* Add styles for the images */
+.slide img {
+  width: 100%;
+  height: 93vh;
+  object-fit: cover;
+}
+
+
+
+/* Add some basic styling to make the page look decent */
+
+
+
+
+/*Body content*/
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  justify-content: space-evenly;
+  background-color: #333;
+
+}
+
+.course {
+  background-color: #fff;
+  width: 35%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.course h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.course p {
+  font-family: verdana;
+  text-align: left;
+}
+
+/*Image section below body*/
+.image-conatiner {
+  background: #333;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.image-card {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 10px;
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+
+.image-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image-info {
+  padding: 5px;
+  text-align: center;
+}
+
+/*footer*/
